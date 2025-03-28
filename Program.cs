@@ -1,12 +1,12 @@
-﻿int j, m, c, i, t;
+﻿double j, m, c, i, t;
 Console.WriteLine("Escreva seu capital");
-c = Convert.ToInt32(Console.ReadLine()!);
+c = Convert.ToDouble(Console.ReadLine()!);
 
 Console.WriteLine("Escreva seu taxa de juros");
-i = Convert.ToInt32(Console.ReadLine()!);
+i = Convert.ToDouble(Console.ReadLine()!);
 
 Console.WriteLine("Escreva seu tempo");
-t = Convert.ToInt32(Console.ReadLine()!);
+t = Convert.ToDouble(Console.ReadLine()!);
 
 j = c * i * t;
 
